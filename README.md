@@ -16,9 +16,9 @@ This repository provides an end-to-end workflow, from raw data processing to mod
 MakeUp/
 ├── data/                       # Datasets
 │   ├── raw/                    # Raw source data
-│   ├── processed/              # Processed datasets and tokenized sequences
-│   ├── dataset.csv             # The main CSV dataset
-│   └── dataset.txt             # The text format dataset
+│   │   ├── dataset.csv         # The main CSV dataset
+│   │   └── dataset.txt         # The text format dataset
+│   └── processed/              # Processed datasets and tokenized sequences
 ├── models/                     # Saved Keras models and Tokenizers
 ├── notebooks/                  # Jupyter notebooks for exploration and prototyping
 │   └── next_word_prediction_final.ipynb
